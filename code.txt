@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+ void swap(int &a,int &b){
+int temp =a;
+a = b;
+b = temp;
+}
+int main(){
+int n;
+cin>>n;
+int m;
+cin>>m;
+
+cout<<" before swaping "<< n << " and "<< m << endl;
+swap(n,m);
+cout<<" after swaping "<< n << " and "<< m << endl;
+    return 0;
+}
